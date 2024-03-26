@@ -1,0 +1,11 @@
+#home{
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    background-image:linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .5)), url(https://www.fantasypark.in/uploads/banner-01.jpg);
+    background-size: cover;
+    background-position: center;
+}
