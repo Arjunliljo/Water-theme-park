@@ -16,6 +16,7 @@
     padding: 3rem 2rem;
     margin: 5rem 0;
     background-color: var(--primary-light);
+    margin-bottom: 0rem;
 }
 #rides .container{
     display: grid;
@@ -23,7 +24,16 @@
     gap: 3rem;
 }
 #rides h2{
-    font-size: 3rem;
     padding: 5rem;
    
+}
+#tariff{
+    padding: 10rem 0;
+    text-align: center;
+
+    background-color: var(--primary-light);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:5rem
 }
