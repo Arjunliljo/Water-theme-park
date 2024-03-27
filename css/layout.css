@@ -1,11 +1,29 @@
 #home{
     height: 100vh;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    left: 0;
-    right: 0;
     background-image:linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .5)), url(https://www.fantasypark.in/uploads/banner-01.jpg);
     background-size: cover;
     background-position: center;
+}
+
+#about .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 3rem 2rem;
+}
+
+#rides{
+    text-align: center;
+    padding: 3rem 2rem;
+    margin: 5rem 0;
+    background-color: var(--primary-light);
+}
+#rides .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+#rides h2{
+    font-size: 3rem;
+    padding: 5rem;
+   
 }

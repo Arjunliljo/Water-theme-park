@@ -19,3 +19,10 @@
 .buttons .tariff-btn{
     color: white;
 }
+
+.bton{
+    border: none;
+    border-radius: 5rem;
+    width: 15rem;
+    background-color: var(--primary-color);
+}

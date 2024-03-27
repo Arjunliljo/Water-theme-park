@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* header and home sections */
 header nav ul{
     display: none;
 }
@@ -29,6 +30,9 @@ header .container{
     align-items: center;
     justify-content: space-between;
     background-color: rgb(51, 51, 51);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 #home .container{
     display: flex;
@@ -45,4 +49,65 @@ header .container{
 .primery-heading p{
     font-weight: 500;
     color: white;
+}
+
+/* about section */
+.introduction h2{
+    font-size: 3rem;
+}
+.introduction span{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.introduction p{
+    font-size: 1.6rem;
+    margin: 1.6rem 0;
+}
+.introduction .bton{
+    margin-top: 1rem;
+    color: white;
+}
+.image-box {
+    margin:3rem 0 ;
+   box-shadow: 0rem 2rem 4rem rgba(0, 0, 0, .8);
+
+}
+.image-box img{
+    width: 100%;
+    
+}
+
+/* rides section */
+.features{
+  
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    padding-top: 10rem;
+
+    border-radius: 8rem;
+    border-bottom-right-radius: 0px;
+    cursor: pointer;
+    
+    background-image: linear-gradient(130deg, white 5%, rgb(31, 31, 212) 0%);
+    transition: all .5s;
+    transform-origin: bottom;
+    background-size: 3000%;
+
+    position: relative;
+}
+.features:hover{
+    background-size: 100%;
+    color: white;
+}
+.features:hover p{
+ 
+    color: white;
+}
+.features p{
+    font-size: 1.6rem;
+    text-align: left;
+    line-height: 2.5rem;
+    color: gray;
 }
