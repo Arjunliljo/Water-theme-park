@@ -62,10 +62,13 @@ header .container{
 .introduction p{
     font-size: 1.6rem;
     margin: 1.6rem 0;
+    margin-bottom: 5rem;
 }
 .introduction .bton{
-    margin-top: 1rem;
+    margin-top: 3rem;
     color: white;
+
+    text-decoration: none;
 }
 .image-box {
     margin:3rem auto ;
@@ -130,6 +133,7 @@ header .container{
     bottom: 3rem;
     left: 50%;
     transform: translateX(-50%);
+
 
     font-weight: 500;
     color: white;
