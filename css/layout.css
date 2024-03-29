@@ -31,11 +31,17 @@
    
 }
 #tariff{
-    padding: 10rem 0;
+    padding: 10rem 5rem;
     text-align: center;
 
     background-color: var(--primary-light);
+}
 
+#tariff h2{
+    margin-bottom: 8rem;
+}
+
+#tariff .container{
     display: grid;
     grid-template-columns: 1fr;
     gap:5rem

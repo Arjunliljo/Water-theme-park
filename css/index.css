@@ -140,7 +140,7 @@ header .container{
     left: 50%;
     transform: translateX(-50%);
 
-    font-size: 5rem;
+    font-size: 3rem;
     color: white;
     text-wrap: nowrap;
 }
@@ -150,9 +150,10 @@ header .container{
     top: 50%;
     left: 50%;
     
+    text-wrap: nowrap;
     transform: translateX(-50%);
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 4rem;
     color: #28a9e2;
 }
 .book-now > span:last-of-type{
