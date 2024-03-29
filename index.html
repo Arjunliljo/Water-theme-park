@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/components.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/mediaQuories.css">
 
 </head>
 <body>
@@ -165,9 +166,24 @@
         </section> -->
        
         <section id="contact">
+            
             <h2>Contact Us</h2>
+            
             <div class="container">
-                <!-- Contact form, contact information, etc. -->
+                    <form action="your_server_endpoint_here" method="post">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+
+                        <!-- Add more input fields as needed -->
+
+                        <input type="submit" value="Submit">
+                    </form>
             </div>
         </section>
         <!-- Add more sections for other parts of your website -->
@@ -175,8 +191,19 @@
     </main>
    
     <footer>
-        <!-- Footer content, such as copyright information, links to social media, etc. -->
-        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+  
+        <div class="img-box">
+            <img src="https://www.fantasypark.in/images/logowhite.png" alt="logo" class="footer-log">
+        </div>
+        
+        <span class="footer-span">
+            <a href="#" class="footer-span-link">facebook |</a>
+            <a href="#" class="footer-span-link">instagram |</a>
+            <a href="#" class="footer-span-link">youtube</a>
+        </span>
+
+        <p>&copy; 2024 Fantasy park. All rights reserved.</p>
+   
     </footer>
 
     <script src="index.js"></script>
