@@ -2,10 +2,12 @@
 .buttons{
  
     display: flex;
+    align-items: center;
     justify-content: space-between;
     max-width: 32rem;
-    margin: 0 auto;
+
     margin-top: 3rem;
+
 }
 .buttons .bton{
     border: none;
@@ -15,9 +17,42 @@
 }
 .buttons .contact-btn{
     background-color: white;
+    color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 0;
+
 }
+.buttons .contact-btn:hover{
+    background-color: transparent;
+    color: white;
+}
+
+
+.buttons .contact-btn::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: inherit;
+
+    transition: all .5s;
+    transform: translateY(6rem);
+    transform-origin: bottom;
+    opacity: 0;
+    background-color: var(--primary-color);
+}
+
+.buttons .contact-btn:hover::before{
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .buttons .tariff-btn{
     color: white;
+    position: relative;
 }
 
 .bton{
