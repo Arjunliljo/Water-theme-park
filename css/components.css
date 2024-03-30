@@ -26,3 +26,31 @@
     width: 15rem;
     background-color: var(--primary-color);
 }
+
+.date-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 9rem;
+  }
+
+  .label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .date-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
