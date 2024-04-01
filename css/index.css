@@ -1,8 +1,4 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
+
 
 /* header and home sections */
 header nav ul{
@@ -47,9 +43,10 @@ header nav ul li a:hover{
 }
 .menu-btn{
     border: 2px solid rgb(255, 255, 255);
-    font-size: 1.6rem;
-    margin-left: 10rem;
+    font-size: 1.4rem;
+    /* margin-left: 10rem; */
     /* background-color: transparent; */
+    width: 10rem !important;
     color: white;
     border-radius: 1rem;
 }
@@ -74,6 +71,10 @@ header .container{
 }
 .primery-heading{
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 .primery-heading .heading{
     font-size: 3rem !important;
